@@ -1,4 +1,5 @@
 # pokedexcli
+
 Pokedex CLI tool written in golang
 
 ### Available Functionality:
@@ -10,4 +11,5 @@ Pokedex CLI tool written in golang
 5. `catch`: Attempts to catch a pokemon
 6. `inspect`: Inspects the details of a captured Pokemon
 7. `pokedex`: Lists all PokeDex entries for captured Pokemon
-8. `exit`: Closes the program
+8. `move`: Describe a Pokemon move
+9. `exit`: Closes the program

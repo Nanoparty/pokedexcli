@@ -1,11 +1,11 @@
 package main
 
 import (
-	"os"
 	"fmt"
+	"os"
 )
 
-func commandExit(cfg *config) error {
+func commandExit(cfg *config, args ...string) error {
 	fmt.Println()
 	fmt.Println("Thank you for using PokedexCLI!")
 	fmt.Println("We hope to see you again soon.")

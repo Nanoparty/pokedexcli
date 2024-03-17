@@ -22,7 +22,7 @@ func startRepl(cfg *config){
 	fmt.Println("---------------")
 
 	for {
-		fmt.Print("> ")
+		fmt.Print("Pokedex > ")
 		text, _ := reader.ReadString('\n')
 		// convert CRLF to LF
 		text = strings.Replace(text, "\n", "", -1)
@@ -90,6 +90,11 @@ func getCommands() map[string]cliCommand{
 			name:			"explore",
 			description:	"Explore a location",
 			callback:		commandExplore,
+		},
+		"catch": {
+			name:			"catch",
+			description:	"Attempt to catch a Pokemon",
+			callback:		commandCatch,
 		},
 	}
 }

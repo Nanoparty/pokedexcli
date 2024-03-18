@@ -124,5 +124,10 @@ func getCommands() map[string]cliCommand{
 			description:	"List previous page of berries",
 			callback:		commandBerriesb,
 		},
+		"berry": {
+			name:			"berry",
+			description:	"Describe berry details",
+			callback:		commandBerry,
+		},
 	}
 }

@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"errors"
 )
 
 func commandBerries(cfg *config, args ...string) error {
